@@ -1,0 +1,24 @@
+{
+  "name": "fastify_autoload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "nodemon src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.7.1",
+    "@fastify/jwt": "^7.2.1",
+    "@fastify/postgres": "^5.2.0",
+    "fastify": "^4.22.2",
+    "fastify-plugin": "^4.5.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.1",
+    "url": "^0.11.2"
+  }
+}
